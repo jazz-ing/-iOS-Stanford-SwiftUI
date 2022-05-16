@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View { // View처럼 행동한다
+    // View 프로토콜 채택시 필수 구현 사항
     var body: some View {
+        // views -> lego blocks
         Text("hello, world!")
-
+            .padding()
     }
 }
 
