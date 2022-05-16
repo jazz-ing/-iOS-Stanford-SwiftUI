@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct ContentView: View { // View처럼 행동한다
-    // View 프로토콜 채택시 필수 구현 사항
+struct ContentView: View {
+
     var body: some View {
-        // views -> lego blocks
-        Text("hello, world!")
-            .padding()
+        // Zstack - combiner view
+        ZStack {
+            // bag of logo(view)
+            RoundedRectangle(cornerRadius: 25)
+                .stroke()
+                .foregroundColor(.blue)
+            Text("hello, world!")
+        }
+        .padding()
+        .foregroundColor(.orange)
     }
 }
 
