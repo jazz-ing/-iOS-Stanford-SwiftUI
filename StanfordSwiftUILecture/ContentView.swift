@@ -10,16 +10,34 @@ import SwiftUI
 struct ContentView: View {
 
     var body: some View {
-        // Zstack - combiner view
-        ZStack {
-            // bag of logo(view)
-            RoundedRectangle(cornerRadius: 25)
-                .stroke()
-                .foregroundColor(.blue)
-            Text("hello, world!")
+        HStack {
+            ZStack {
+                RoundedRectangle(cornerRadius: 20)
+                    .stroke(lineWidth: 3)
+                Text("✈️")
+                    .font(.largeTitle)
+            }
+            ZStack {
+                RoundedRectangle(cornerRadius: 20)
+                    .stroke(lineWidth: 3)
+                Text("✈️")
+                    .font(.largeTitle)
+            }
+            ZStack {
+                RoundedRectangle(cornerRadius: 20)
+                    .stroke(lineWidth: 3)
+                Text("✈️")
+                    .font(.largeTitle)
+            }
+            ZStack {
+                RoundedRectangle(cornerRadius: 20)
+                    .stroke(lineWidth: 3)
+                Text("✈️")
+                    .font(.largeTitle)
+            }
         }
         .padding()
-        .foregroundColor(.orange)
+        .foregroundColor(.blue)
     }
 }
 
