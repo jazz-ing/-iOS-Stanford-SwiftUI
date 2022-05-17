@@ -24,13 +24,11 @@ struct ContentView: View {
 struct CardView: View {
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 20)
-                .fill()
-                .foregroundColor(.white)
-            RoundedRectangle(cornerRadius: 20)
-                .stroke(lineWidth: 3)
-            Text("✈️")
-                .font(.largeTitle)
+            let shape = RoundedRectangle(cornerRadius: 20)
+            shape.fill()
+            shape.foregroundColor(.white)
+            shape.stroke(lineWidth: 3)
+            Text("✈️").font(.largeTitle)
         }
     }
 }
