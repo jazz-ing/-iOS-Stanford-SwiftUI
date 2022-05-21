@@ -11,6 +11,7 @@
 		DF83EEE8283231FA00F4FF24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83EEE7283231FA00F4FF24 /* ContentView.swift */; };
 		DF83EEEA283231FC00F4FF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF83EEE9283231FC00F4FF24 /* Assets.xcassets */; };
 		DF83EEED283231FC00F4FF24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF83EEEC283231FC00F4FF24 /* Preview Assets.xcassets */; };
+		DFDE13F32838A1D30016E8C5 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDE13F22838A1D30016E8C5 /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF83EEE7283231FA00F4FF24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF83EEE9283231FC00F4FF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF83EEEC283231FC00F4FF24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFDE13F22838A1D30016E8C5 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DF83EEE5283231FA00F4FF24 /* StanfordSwiftUILectureApp.swift */,
 				DF83EEE7283231FA00F4FF24 /* ContentView.swift */,
+				DFDE13F22838A1D30016E8C5 /* MemoryGame.swift */,
 				DF83EEE9283231FC00F4FF24 /* Assets.xcassets */,
 				DF83EEEB283231FC00F4FF24 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDE13F32838A1D30016E8C5 /* MemoryGame.swift in Sources */,
 				DF83EEE8283231FA00F4FF24 /* ContentView.swift in Sources */,
 				DF83EEE6283231FA00F4FF24 /* StanfordSwiftUILectureApp.swift in Sources */,
 			);
