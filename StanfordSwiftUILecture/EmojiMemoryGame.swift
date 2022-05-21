@@ -7,7 +7,7 @@
 
 import Foundation
 
-class EmojiMemoryGame {
+class EmojiMemoryGame: ObservableObject {
     static let emojis: [String] = [
         "✈️", "🚌", "🚟", "🛵", "⛵️", "🚡", "🚗", "🛻", "🚂", "🛳", "🚉", "🚀", "🛶", "🚁", "🚜", "🚁"
     ]
