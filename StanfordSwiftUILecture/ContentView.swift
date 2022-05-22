@@ -17,6 +17,10 @@ struct ContentView: View {
                     ForEach(viewModel.cards) { card in
                         CardView(card: card)
                             .aspectRatio(2/3, contentMode: .fit)
+                            // CardView에서 해주면 안되나?
+                            .onTapGesture {
+                                viewModel.choose(card)
+                            }
                     }
                 }
                 .foregroundColor(.yellow)
